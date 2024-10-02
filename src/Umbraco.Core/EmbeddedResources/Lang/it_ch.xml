@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="it_ch" intName="Italian Switzerland (IT-CH)" localName="italiano Svizerra (IT-CH)" lcid="16" culture="it-CH">
+	<creator>
+    <name>The Umbraco community</name>
+    <link>https://docs.umbraco.com/umbraco-cms/extending/language-files</link>
+  </creator>
+  <area alias="actions">
+    <key alias="assigndomain">Gestisci hostnames</key>
+    <key alias="auditTrail">Audit Trail</key>
+    <key alias="browse">Sfoglia</key>
+    <key alias="changeDocType">Cambia tipo di documento</key>
+    <key alias="changeDataType">Cambia tipo di dato</key>
+    <key alias="copy">Copia</key>
+    <key alias="create">Crea</key>
+    <key alias="export">Esporta</key>
+    <key alias="createPackage">Crea pacchetto</key>
+    <key alias="createGroup">Crea gruppo</key>
+    <key alias="delete">Cancella</key>
+    <key alias="disable">Disabilita</key>
+    <key alias="editSettings">Modifica impostazioni</key>
+    <key alias="emptyrecyclebin">Svuota il cestino</key>
+    <key alias="enable">Abilita</key>
+    <key alias="exportDocumentType">Esporta il tipo di documento</key>
+    <key alias="importdocumenttype">Importa il tipo di documento</key>
+    <key alias="importPackage">Importa il pacchetto</key>
+    <key alias="liveEdit">Modifica in Area di Lavoro</key>
+    <key alias="logout">Uscita</key>
+    <key alias="move">Sposta</key>
+    <key alias="notify">Notifiche</key>
+    <key alias="protect">Accesso pubblico</key>
+    <key alias="publish">Pubblica</key>
+    <key alias="unpublish">Non pubblicare</key>
+    <key alias="refreshNode">Aggiorna</key>
+    <key alias="republish">Ripubblica intero sito</key>
+    <key alias="remove">Rimuovi</key>
+    <key alias="rename" version="7.3.0">Rinomina</key>
+    <key alias="restore" version="7.3.0">Ripristina</key>
+    <key alias="chooseWhereToCopy">Scegli dove copiare</key>
+    <key alias="chooseWhereToMove">Scegli dove muovere</key>
+    <key alias="toInTheTreeStructureBelow">nella struttura sottostante</key>
+    <key alias="infiniteEditorChooseWhereToCopy">Scegli dove copiare l'oggetto/gli oggetti selezionati</key>
+    <key alias="infiniteEditorChooseWhereToMove">Scegli dove spostare l'oggetto/gli oggetti selezionati</key>
+    <key alias="wasMovedTo"><![CDATA[è stato spostato in]]></key>
+    <key alias="wasCopiedTo"><![CDATA[è stato copiato in]]></key>
+    <key alias="wasDeleted"><![CDATA[è stato eliminato]]></key>
+    <key alias="rights">Permessi</key>
+    <key alias="rollback">Annulla ultima modifica</key>
+    <key alias="sendtopublish">Invia per la pubblicazione</key>
+    <key alias="sendToTranslate">Invia per la traduzione</key>
+    <key alias="setGroup">Crea gruppo</key>
+    <key alias="sort">Ordina</key>
+    <key alias="translate">Traduci</key>
+    <key alias="update">Aggiorna</key>
+    <key alias="setPermissions">Imposta permessi</key>
+    <key alias="unlock">Sblocca</key>
+    <key alias="createblueprint">Crea modello di contenuto</key>
+    <key alias="resendInvite">Invia nuovamente l'invito</key>
+  </area>
+  <area alias="content">
+    <key alias="itemNotPublished"><![CDATA[Questo elemento non è stato pubblicato]]></key>
+    <key alias="parentNotPublished"><![CDATA[Questo documento è pubblicato, ma non è visibile perché il padre '%0%' non è pubblicato]]></key>
+    <key alias="parentCultureNotPublished"><![CDATA[Questa lingua è pubblicata, ma non è visibile perché non è pubblicata al padre '%0%']]></key>
+    <key alias="parentNotPublishedAnomaly"><![CDATA[Questo documento è pubblicato, ma non è nella cache]]></key>
+    <key alias="getUrlException">Impossibile ottenere l'URL</key>
+    <key alias="routeError"><![CDATA[Questo documento è pubblicato ma il suo URL entrerebbe in conflitto con il contenuto %0%]]></key>
+    <key alias="routeErrorCannotRoute"><![CDATA[Questo documento è pubblicato ma il suo URL non può essere instradato]]></key>
+  </area>
+  <area alias="member">
+  </area>
+  <area alias="errors">
+  </area>
+  <area alias="login">
+    <key alias="resetCodeExpired"><![CDATA[Il link su cui hai cliccato non è valido o è scaduto]]></key>
+    <key alias="resetPasswordEmailCopySubject">Umbraco: Reset Password</key>
+    <key alias="resetPasswordEmailCopyFormat"><![CDATA[
+        <html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Reset della password richiesto
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Il tuo username per effettuare l'accesso al backoffice di Umbraco è: <strong>%0%</strong>
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'>
+																<tbody>
+																	<tr>
+																		<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																			<a href='%1%' target='_blank' rel='noopener' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>
+																				Clicca questo link per resettare la password
+																			</a>
+																		</td>
+																	</tr>
+																</tbody>
+															</table>
+														</p>
+														<p style='max-width: 400px; display: block; color: #392F54; font-family: sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; margin: 15px 0;'>Se non riesci a cliccare sul link, copia e incolla questo URL nella finestra del browser:</p>
+															<table border='0' cellpadding='0' cellspacing='0'>
+																<tr>
+																	<td style='-ms-word-break: break-all; word-break: break-all; font-family: sans-serif; font-size: 11px; line-height:14px;'>
+																		<font style="-ms-word-break: break-all; word-break: break-all; font-size: 11px; line-height:14px;">
+																			<a style='-ms-word-break: break-all; word-break: break-all; color: #392F54; text-decoration: underline; font-size: 11px; line-height:15px;' href='%1%'>%1%</a>
+																		</font>
+																	</td>
+																</tr>
+															</table>
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+		</html>
+	]]></key>
+  </area>
+  <area alias="notifications">
+    <key alias="mailBody"><![CDATA[
+      Ciao %0%
+
+      Questa è un'email automatica per informare che l'azione '%1%'
+      è stata eseguita sulla pagina '%2%'
+      dall'utente '%3%'
+
+      Vai al link http://%4%/#/content/content/edit/%5% per modificare.
+
+      %6%
+
+      Buona giornata!
+
+      Saluti dal robot di Umbraco
+    ]]></key>
+    <key alias="mailBodyVariantSummary">Sono state modificate le lingue seguenti %0%</key>
+    <key alias="mailBodyHtml"><![CDATA[
+            	<html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Ciao %0%,
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Questa è un'email automatica per informare che l'azione <strong>'%1%'</strong> è stata eseguita sulla pagina <a style="color: #392F54; text-decoration: none; -ms-word-break: break-all; word-break: break-all;" href="http://%4%/#/content/content/edit/%5%"><strong>'%2%'</strong></a> dall'utente <strong>'%3%'</strong>
+														</p>
+														<table border='0' cellpadding='0' cellspacing='0' class='btn btn-primary' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;'>
+															<tbody>
+																<tr>
+																	<td align='left' style='font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;' valign='top'>
+																		<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'><tbody><tr>
+																			<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																				<a href='http://%4%/#/content/content/edit/%5%' target='_blank' rel='noopener' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>MODIFICA</a> </td> </tr></tbody></table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															<h3>Riepilogo dell'aggiornamento:</h3>
+															%6%
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Buona giornata!<br /><br />
+															Saluti dal robot di Umbraco
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+		</html>
+	]]></key>
+    <key alias="mailBodyVariantHtmlSummary"><![CDATA[<p>Sono state modificate le seguenti lingue:</p>
+        %0%
+    ]]></key>
+    <key alias="mailSubject">[%0%] Notifica per %1% eseguito su %2%</key>
+  </area>
+  <area alias="user">
+    <key alias="passwordMismatch"><![CDATA[La password di conferma non corrisponde alla nuova password!]]></key>
+    <key alias="inviteEmailCopySubject">Invito per Umbraco</key>
+    <key alias="inviteEmailCopyFormat"><![CDATA[
+        <html>
+			<head>
+				<meta name='viewport' content='width=device-width'>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+			</head>
+			<body class='' style='font-family: sans-serif; -webkit-font-smoothing: antialiased; font-size: 14px; color: #392F54; line-height: 22px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; background: #1d1333; margin: 0; padding: 0;' bgcolor='#1d1333'>
+				<style type='text/css'> @media only screen and (max-width: 620px) {table[class=body] h1 {font-size: 28px !important; margin-bottom: 10px !important; } table[class=body] .wrapper {padding: 32px !important; } table[class=body] .article {padding: 32px !important; } table[class=body] .content {padding: 24px !important; } table[class=body] .container {padding: 0 !important; width: 100% !important; } table[class=body] .main {border-left-width: 0 !important; border-radius: 0 !important; border-right-width: 0 !important; } table[class=body] .btn table {width: 100% !important; } table[class=body] .btn a {width: 100% !important; } table[class=body] .img-responsive {height: auto !important; max-width: 100% !important; width: auto !important; } } .btn-primary table td:hover {background-color: #34495e !important; } .btn-primary a:hover {background-color: #34495e !important; border-color: #34495e !important; } .btn  a:visited {color:#FFFFFF;} </style>
+				<table border="0" cellpadding="0" cellspacing="0" class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;" bgcolor="#1d1333">
+					<tr>
+						<td style="font-family: sans-serif; font-size: 14px; vertical-align: top; padding: 24px;" valign="top">
+							<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
+								<tr>
+									<td background="https://umbraco.com/umbraco/assets/img/application/logo.png" bgcolor="#1d1333" width="28" height="28" valign="top" style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
+										<!--[if gte mso 9]> <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:30px;height:30px;"> <v:fill type="tile" src="https://umbraco.com/umbraco/assets/img/application/logo.png" color="#1d1333" /> <v:textbox inset="0,0,0,0"> <![endif]-->
+										<div> </div>
+										<!--[if gte mso 9]> </v:textbox> </v:rect> <![endif]-->
+									</td>
+									<td style="font-family: sans-serif; font-size: 14px; vertical-align: top;" valign="top"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<table border='0' cellpadding='0' cellspacing='0' class='body' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background: #1d1333;' bgcolor='#1d1333'>
+					<tr>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+						<td class='container' style='font-family: sans-serif; font-size: 14px; vertical-align: top; display: block; max-width: 560px; width: 560px; margin: 0 auto; padding: 10px;' valign='top'>
+							<div class='content' style='box-sizing: border-box; display: block; max-width: 560px; margin: 0 auto; padding: 10px;'>
+								<br>
+								<table class='main' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 3px; background: #FFFFFF;' bgcolor='#FFFFFF'>
+									<tr>
+										<td class='wrapper' style='font-family: sans-serif; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 50px;' valign='top'>
+											<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;'>
+												<tr>
+													<td style='line-height: 24px; font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'>
+														<h1 style='color: #392F54; font-family: sans-serif; font-weight: bold; line-height: 1.4; font-size: 24px; text-align: left; text-transform: capitalize; margin: 0 0 30px;' align='left'>
+															Ciao %0%,
+														</h1>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Sei stato invitato nel Back Office di Umbraco da <a href="mailto:%4%" style="text-decoration: underline; color: #392F54; -ms-word-break: break-all; word-break: break-all;">%1%</a>.
+														</p>
+														<p style='color: #392F54; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0 0 15px;'>
+															Messaggio da <a href="mailto:%1%" style="text-decoration: none; color: #392F54; -ms-word-break: break-all; word-break: break-all;">%1%</a>:
+															<br/>
+															<em>%2%</em>
+														</p>
+														<table border='0' cellpadding='0' cellspacing='0' class='btn btn-primary' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;'>
+															<tbody>
+																<tr>
+																	<td align='left' style='font-family: sans-serif; font-size: 14px; vertical-align: top; padding-bottom: 15px;' valign='top'>
+																		<table border='0' cellpadding='0' cellspacing='0' style='border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;'>
+																			<tbody>
+																				<tr>
+																					<td style='font-family: sans-serif; font-size: 14px; vertical-align: top; border-radius: 5px; text-align: center; background: #35C786;' align='center' bgcolor='#35C786' valign='top'>
+																						<a href='%3%' target='_blank' rel='noopener' style='color: #FFFFFF; text-decoration: none; -ms-word-break: break-all; word-break: break-all; border-radius: 5px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 14px; font-weight: bold; text-transform: capitalize; background: #35C786; margin: 0; padding: 12px 30px; border: 1px solid #35c786;'>
+																							Clicca questo link per accettare l'invito
+																						</a>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+														<p style='max-width: 400px; display: block; color: #392F54; font-family: sans-serif; font-size: 14px; line-height: 20px; font-weight: normal; margin: 15px 0;'>Se non puoi cliccare sul link, copia e incolla questo URL in una nuova finestra del tuo browser:</p>
+															<table border='0' cellpadding='0' cellspacing='0'>
+																<tr>
+																	<td style='-ms-word-break: break-all; word-break: break-all; font-family: sans-serif; font-size: 11px; line-height:14px;'>
+																		<font style="-ms-word-break: break-all; word-break: break-all; font-size: 11px; line-height:14px;">
+																			<a style='-ms-word-break: break-all; word-break: break-all; color: #392F54; text-decoration: underline; font-size: 11px; line-height:15px;' href='%3%'>%3%</a>
+																		</font>
+																	</td>
+																</tr>
+															</table>
+														</p>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								<br><br><br>
+							</div>
+						</td>
+						<td style='font-family: sans-serif; font-size: 14px; vertical-align: top;' valign='top'> </td>
+					</tr>
+				</table>
+			</body>
+    </html>]]></key>
+  </area>
+  <area alias="validation">
+    <key alias="invalidEmail">Email non valida</key>
+    <key alias="invalidNull"><![CDATA[Il valore non può essere nullo]]></key>
+    <key alias="invalidEmpty"><![CDATA[Il valore non può essere vuoto]]></key>
+    <key alias="invalidPattern"><![CDATA[Il valore non è valido, non corrisponde al pattern corretto]]></key>
+    <key alias="entriesShort"><![CDATA[Minimo %0% voci, ne richiede <strong>%1%</strong> in più.]]></key>
+    <key alias="entriesExceed"><![CDATA[Massimo %0% voci, <strong>%1%</strong> di troppo.]]></key>
+  </area>
+  <area alias="healthcheck">
+    <!-- The following keys get these tokens passed in:
+   0: Current value
+   1: Recommended value
+   2: XPath
+   3: Configuration file path
+-->
+    <key alias="checkSuccessMessage"><![CDATA[Il valore è impostato al valore raccomandato: '%0%'.]]></key>
+    <key alias="checkErrorMessageDifferentExpectedValue"><![CDATA[Mi aspettavo il valore '%1%' per '%2%' nel file di configurazione '%3%', ma ho trovato '%0%'.]]></key>
+    <key alias="checkErrorMessageUnexpectedValue"><![CDATA[Non mi aspettavo il valore '%0%' per '%2%' nel file di configurazione '%3%'.]]></key>
+    <!-- The following keys get these tokens passed in:
+   0: Current value
+   1: Recommended value
+-->
+    <!-- The following keys get these tokens passed in:
+   0: Current value
+   1: Recommended value
+   2: Server version
+-->
+    <!-- The following keys get predefined tokens passed in that are not all the same, like above -->
+    <key alias="httpsCheckValidCertificate"><![CDATA[Il certificato SSL del tuo sito web è valido.]]></key>
+    <key alias="httpsCheckInvalidCertificate">Errore di validazione del certificato SSL: '%0%'</key>
+    <key alias="httpsCheckExpiredCertificate"><![CDATA[Il certificato SSL del tuo sito web è scaduto.]]></key>
+    <key alias="httpsCheckExpiringCertificate"><![CDATA[Il certificato SSL del tuo sito web scadrà tra %0% giorni.]]></key>
+    <key alias="healthCheckInvalidUrl">Errore durante il ping dell'URL %0% - '%1%'</key>
+    <key alias="httpsCheckIsCurrentSchemeHttps">Attualmente %0% stai visualizzando il sito web utilizzando lo schema
+      HTTPS.
+    </key>
+    <key alias="httpsCheckConfigurationRectifyNotPossible"><![CDATA[L'appSetting 'Umbraco.Core.UseHttps' è impostata a 'false' nel file web.config. Quando accederai al sito web usando lo schema HTTPS, il valore dovrà essere impostato a 'true'.]]></key>
+    <key alias="httpsCheckConfigurationCheckResult"><![CDATA[L'appSetting 'Umbraco.Core.UseHttps' è impostata a '%0%' nel file web.config, i tuoi cookie %1% sono contrassegnati come sicuri.]]></key>
+    <!-- The following keys don't get tokens passed in -->
+    <key alias="compilationDebugCheckSuccessMessage"><![CDATA[La modalità di compilazione debug è disabilitata.]]></key>
+    <key alias="compilationDebugCheckErrorMessage"><![CDATA[La modalità di compilazione debug è attualmente abilitata. Si consiglia di disabilitare questa impostazione prima di andare live.]]></key>
+    <!-- The following keys get these tokens passed in:
+  0: Comma delimitted list of failed folder paths
+-->
+    <!-- The following keys get these tokens passed in:
+  0: Comma delimitted list of failed folder paths
+-->
+    <!-- The following key get these tokens passed in:
+  0: Comma delimitted list of headers found
+-->
+    <key alias="clickJackingCheckHeaderFound">
+      <![CDATA[L'header o meta-tag <strong>X-Frame-Options</strong> usato per controllare se un sito può essere inserito in un IFRAME da un altro è stato trovato.]]></key>
+    <key alias="clickJackingCheckHeaderNotFound">
+      <![CDATA[L'header o meta-tag <strong>X-Frame-Options</strong> usato per controllare se un sito può essere inserito in un IFRAME da un altro non è stato trovato.]]></key>
+    <key alias="setHeaderInConfig">Imposta l'header nella configurazione</key>
+    <key alias="clickJackingSetHeaderInConfigDescription">Aggiunge un valore alla sezione httpProtocol/customHeaders del
+      file web.config per prevenire che un sito possa essere inserito in un IFRAME da altri siti web.
+    </key>
+    <key alias="clickJackingSetHeaderInConfigSuccess">
+      <![CDATA[L'impostazione per creare un header per prevenire l'inserimento del sito in altri siti tramite IFRAME è stata aggiunta al file web.config.]]></key>
+    <key alias="setHeaderInConfigError">Non posso aggiornare il file web.config. Errore: %0%</key>
+    <key alias="noSniffCheckHeaderFound">
+      <![CDATA[L'header o meta-tag <strong>X-Content-Type-Options</strong> usato per proteggere dalle vulnerabilità per MIME sniffing è stato trovato.]]></key>
+    <key alias="noSniffCheckHeaderNotFound">
+      <![CDATA[L'header o meta-tag <strong>X-Content-Type-Options</strong> usato per proteggere dalle vulnerabilità per MIME sniffing è stato trovato.]]></key>
+    <key alias="noSniffSetHeaderInConfigDescription">
+      <![CDATA[Aggiunge un valore alla sezione httpProtocol/customHeaders del file web.config per proteggere dalle vulnerabilità per MIME sniffing.]]></key>
+    <key alias="noSniffSetHeaderInConfigSuccess">
+      <![CDATA[L'impostazione per creare un header per proteggere dalle vulnerabilità per MIME sniffing è stata aggiunta al file web.config.]]></key>
+    <key alias="hSTSCheckHeaderFound">
+      <![CDATA[L'header <strong>Strict-Transport-Security</strong>, conosciuto anche come l'header HSTS, è stato trovato.]]></key>
+    <key alias="hSTSCheckHeaderNotFound">
+      <![CDATA[L'header <strong>Strict-Transport-Security</strong> non è stato trovato.]]></key>
+    <key alias="hSTSSetHeaderInConfigDescription">Aggiunge l'header 'Strict-Transport-Security' con il valore
+      'max-age=10886400' alla sezione httpProtocol/customHeaders del file web.config. Usa questa correzione solo se
+      avrai i tuoi domini in esecuzione con https per le prossime 18 settimane (minimo).
+    </key>
+    <key alias="hSTSSetHeaderInConfigSuccess"><![CDATA[L'header HSTS è stato aggiunto al file web.config.]]></key>
+    <key alias="xssProtectionCheckHeaderFound">
+      <![CDATA[L'header <strong>X-XSS-Protection</strong> è stato trovato.]]></key>
+    <key alias="xssProtectionCheckHeaderNotFound">
+      <![CDATA[L'header <strong>X-XSS-Protection</strong> non è stato trovato.]]></key>
+    <key alias="xssProtectionSetHeaderInConfigDescription">Aggiunge l'header 'X-XSS-Protection' con il valore '1;
+      mode=block' alla sezione httpProtocol/customHeaders del file web.config.
+    </key>
+    <key alias="xssProtectionSetHeaderInConfigSuccess">
+      <![CDATA[L'header X-XSS-Protection è stato aggiunto al file web.config.]]></key>
+    <key alias="excessiveHeadersFound"><![CDATA[Gli header seguenti, contenenti informazioni riguardo la tecnologia utilizzata per il sito sono stati trovati: <strong>%0%</strong>.]]></key>
+    <key alias="excessiveHeadersNotFound">Non sono stati trovati header che rivelano informazioni riguardo alla
+      tecnologia utilizzata per il sito.
+    </key>
+    <key alias="smtpMailSettingsNotFound"><![CDATA[Nel file web.config, system.net/mailsettings non è stato trovato.]]></key>
+    <key alias="smtpMailSettingsHostNotConfigured"><![CDATA[Nel file web.config, nella sezione system.net/mailsettings, l'host non è stato configurato.]]></key>
+    <key alias="smtpMailSettingsConnectionSuccess">Le impostazioni SMTP sono state inserite correttamente e il servizio
+      funziona come previsto.
+    </key>
+    <key alias="smtpMailSettingsConnectionFail"><![CDATA[Il server SMTP configurato con l'host '%0%' e la porta '%1%' non può essere raggunto. Per favore controlla che le impostazioni SMTP nel file web.config (sezione system.net/mailsettings) siano corrette.]]></key>
+    <key alias="notificationEmailsCheckSuccessMessage"><![CDATA[L'email di notifica è stata impostata a <strong>%0%</strong>.]]></key>
+    <key alias="notificationEmailsCheckErrorMessage"><![CDATA[L'email di notifica è ancora impostata al valore predefinito di <strong>%0%</strong>.]]></key>
+    <key alias="scheduledHealthCheckEmailBody"><![CDATA[<html><body><p>I risultati dell'Health Check programmato di Umbraco del %0% alle %1% è il seguente:</p>%2%</body></html>]]></key>
+    <key alias="scheduledHealthCheckEmailSubject">Stato dell'Health Check di Umbraco: %0%</key>
+  </area>
+  <area alias="recycleBin">
+    <key alias="contentTrashed">Contenuto cestinato con Id: {0} relativo al contenuto principale originale con Id: {1}
+    </key>
+    <key alias="mediaTrashed">Media cestinato con Id: {0} relativo al media principale originale con Id: {1}</key>
+  </area>
+</language>
